@@ -1,4 +1,6 @@
 package com.teachmeskills.task_1.impl;
 
-public class MyFunc {
+@FunctionalInterface
+public interface MyFunc<T> {
+    T doOperation(T obj);
 }
